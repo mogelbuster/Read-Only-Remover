@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadOnlyRemoverService", "ReadOnlyRemoverService\ReadOnlyRemoverService.csproj", "{669D2DBE-67F5-4E4E-AA30-79923F5F54F8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ReadOnlyRemoverSetup", "ReadOnlyRemoverSetup\ReadOnlyRemoverSetup.vdproj", "{76C438EA-9280-468B-8AAA-59C742B96DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunServiceAsConsoleApp", "RunServiceAsConsoleApp\RunServiceAsConsoleApp.csproj", "{6A31FDBC-DA52-445E-B683-7B038BFB33CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{669D2DBE-67F5-4E4E-AA30-79923F5F54F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669D2DBE-67F5-4E4E-AA30-79923F5F54F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669D2DBE-67F5-4E4E-AA30-79923F5F54F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669D2DBE-67F5-4E4E-AA30-79923F5F54F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C438EA-9280-468B-8AAA-59C742B96DAE}.Debug|Any CPU.ActiveCfg = Debug
+		{76C438EA-9280-468B-8AAA-59C742B96DAE}.Release|Any CPU.ActiveCfg = Release
+		{6A31FDBC-DA52-445E-B683-7B038BFB33CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A31FDBC-DA52-445E-B683-7B038BFB33CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A31FDBC-DA52-445E-B683-7B038BFB33CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A31FDBC-DA52-445E-B683-7B038BFB33CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FC0F87B-8D56-4B06-BDD3-6F1206FDF39C}
+	EndGlobalSection
+EndGlobal
