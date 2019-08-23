@@ -4,7 +4,7 @@ A simple windows service to remove the readonly flag from files and directories.
 
 ## How to Use
 
-This is a Windows service, and can only be installed on a computer running Windows.  Download the `ReadOnlyRemoverSetup.msi` file at the root of this project, and double click it to install.  Follow the directions in the installation wizard.  After install completes, open the installed location, which should be this folder path:
+This is a Windows service, and can only be installed on a computer running Windows.  [Download the ReadOnlyRemoverSetup.msi](https://github.com/mogelbuster/Read-Only-Remover/raw/master/ReadOnlyRemoverSetup.msi) installation file, and double click it to install.  Follow the directions in the installation wizard.  After install completes, open the installed location, which should be this folder path:
 ```
 C:\Program Files (x86)\Mogelbuster\ReadOnlyRemoverSetup\
 ```
